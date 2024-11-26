@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+font-family: "Kalam", cursive;
+
+*{
+  margin-left: 10px;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none; 
+     
+}
+body  {
+    background-color: black;
+}
+.navbar{
+   
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+  
+}
+.logo a{
+    font-size: 20px;
+color: black;
+background-color:#ff007b;
+font-weight: bolder;
+border-radius: 04px;
+padding: 5px 10px;
+text-decoration: none;
+margin-left: 23px;
+
+}
+.top {
+    display: flex;
+    gap: 10px; /* Add spacing between links */
+    margin-right: 385px;
+}
+
+.listtop a {
+color: #b5b5b5;
+text-decoration: none;
+}
+.listtop a:hover {
+    color:#ff007b; /* Hover effect */
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+/* ---------------------body--------------------------------------- */
+
+.title{
+color: white;
+margin-top: 155px;
+margin-left: 38px;
+font-weight: lighter;
+font-size: 7px;
+font-family: "Kalam", cursive;
+}
+.full{
+    color: #ff007b;
+    font-weight: bolder;
+    font-size: 55px;
+    margin-left: 38px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0; /* Remove spacing above */
+    margin-bottom: 0; /* Remove spacing below */
+    line-height: 1; /* Ensure minimal line spacing */
+}
+.stack{
+    color: white;
+    font-weight: bolder;
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.developer{
+    color: white;
+    margin-left: 38px;
+     font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.intro{
+    color: white;
+    margin-left: 38px;
+    font-size: 18px;
+    margin-top: 10;
+   
+}
+
